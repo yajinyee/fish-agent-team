@@ -1,0 +1,28 @@
+---
+title: "金猴爺 BP 任務描述翻譯"
+type: source
+tags: [金猴爺, 翻譯, i18n, golden-monkey]
+created: 2026-06-08
+updated: 2026-06-08
+status: mature
+---
+
+# 金猴爺 BP 任務描述翻譯
+
+Battle Pass（BP）任務文字描述的多國語言翻譯對照。含金屋藏寶相關任務。
+
+| 英文 | 繁中 | 簡中 | 日文 | 泰文 | 印尼文 | 越南文 |
+|------|------|------|------|------|--------|--------|
+| Capture House of Treasure and destroy {count} thatched huts with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上捕獲金屋藏寶 累積吹垮茅草屋{count}間 | {厅馆} 押注{bet}以上捕获 金屋藏宝 累计吹垮茅草屋 {count} 间 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計でわらの家を{count}軒吹き飛ばす |  | {廳館} - Robohkan {count} rumah jerami Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu tích lũy xây {count} nhà rơm |
+| Capture House of Treasure and destroy {count} wooden houses with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積吹垮木屋{count}間 | {厅馆} 押注{bet}以上捕获 金屋藏宝 累计吹垮木屋 {count} 间 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計で木の家を{count}軒吹き飛ばす |  | {廳館} - Robohkan {count} rumah kayu Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu tích lũy xây {count} nhà gỗ |
+| Capture House of Treasure and destroy {count} brick house with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上捕獲金屋藏寶 累積吹垮磚屋{count}間 | {厅馆} 押注{bet}以上捕获 金屋藏宝 累计吹垮砖屋 {count} 间 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計でレンガの家を{count}軒吹き飛ばす |  | {廳館} - Robohkan {count} rumah bata Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu tích lũy xây {count} nhà gạch |
+| Capture House of Treasure and destroy {count} huts/houses with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上捕獲金屋藏寶 累積吹垮任一房子{count}間 | {厅馆} 押注{bet}以上捕获 金屋藏宝 累计吹垮砖屋 {count} 间 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計でいずれかの家を{count}軒吹き飛ばす |  | {廳館} - Robohkan {count} rumah apa pun Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu tích lũy thổi bất kì {count} nhà |
+| Capture House of Treasure and collect CLASSIC prize {count} times with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積獲得CLASSIC獎{count}次 | {厅馆} 押注{bet}以上捕获 金屋藏宝 累计获得 CLASSIC 奖 {count} 次 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計でCLASSIC賞を{count}回獲得 |  | {廳館} - Dapatkan hadiah CLASSIC {count} kali di Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu tích lũy nhận thưởng CLASSIC {count} lần |
+| Capture House of Treasure and collect RICH prize {count} times with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積獲得RICH獎{count}次 | {厅馆} 押注{bet}以上捕获 金屋藏宝 累计获得 RICH 奖 {count} 次 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計でRICH賞を{count}回獲得 |  | {廳館} - Dapatkan hadiah RICH {count} kali di Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu tích lũy nhận thưởng RICH {count} lần |
+| Capture House of Treasure and collect EPIC prize {count} times with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積獲得EPIC獎{count}次 | {厅馆} 押注{bet}以上捕获 金屋藏宝 累计获得 EPIC 奖 {count} 次 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計でEPIC賞を{count}回獲得 |  | {廳館} - Dapatkan hadiah EPIC {count} kali di Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu tích lũy nhận thưởng EPIC {count} lần |
+| Capture House of Treasure and collect LEGEND prize {count} times with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積獲得LEGEND獎{count}次 | {厅馆} 押注{bet}以上捕获 金屋藏宝 累计获得 LEGEND 奖 {count} 次 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計でLEGEND賞を{count}回獲得 |  | {廳館} - Dapatkan hadiah LEGEND {count} kali di Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu tích lũy nhận thưởng LEGEND {count} lần |
+| Capture House of Treasure and trigger Blazing Hot mode {count} times with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積觸發激熱事件{count}次 | {厅馆} 押注{bet}以上 金屋藏宝 累积触发激热事件{count}次 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計で激熱イベントを{count}回獲得 |  | {廳館} - Memicu event 激熱 {count} kali di Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu kích hoạt biểu tượng "激熱" {count} lần |
+| Capture House of Treasure and trigger JP Double event {count} times with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積觸發大哥 JP 翻倍事件{count}次 | {厅馆} 押注{bet}以上 金屋藏宝 累积触发大哥 JP 翻倍事件{count}次 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計で長兄ジャックポット2倍イベントを{count}回獲得 |  | {廳館} - Picu event JP Dobel {count} kali di Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu kích hoạt Heo đại ca nhân đôi Jackpot {count} lần |
+| Capture House of Treasure and trigger Giant House event {count} times with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積觸發二哥巨型房屋事件{count}次 | {厅馆} 押注{bet}以上 金屋藏宝 累积触发二哥巨型房屋事件{count}次 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計で次兄巨大建築イベントを{count}回獲得 |  | {廳館} - Picu event Rumah Raksasa {count} kali di Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu kích hoạt Heo nhị ca xuất hiện ngôi nhà khổng lồ {count} lần |
+| Capture House of Treasure and trigger Golden Tile event {count} times with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積觸發小弟黃金格事件{count}次 | {厅馆} 押注{bet}以上 金屋藏宝 累积触发小弟黄金格事件{count}次 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計で末弟黄金マスイベントを{count}回獲得 |  | {廳館} - Picu event Kotak Emas {count} kali di Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu kích hoạt Heo tam ca xuất hiện ô màu vàng {count} lần |
+| Capture House of Treasure and trigger any event {count} times with bet over {bet} in {廳館}. | {廳館} 押注{bet}以上 金屋藏寶 累積觸發三兄弟事件{count}次 | {厅馆} 押注{bet}以上 金屋藏宝 累积触发三兄弟事件{count}次 | {廳館} ベット{bet}以上で金殿の秘宝捕獲で累計で3兄弟イベントを{count}回獲得 |  | {廳館} - Akumulasi mendapatkan fitur {count} kali di Rumah Harta Karun dengan minimal bet {bet} | {fishroom} Bet {bet} trở lên bắn Ngôi nhà kho báu kích hoạt sự kiện 3 anh em heo {count} lần |

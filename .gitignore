@@ -1,0 +1,11 @@
+# Sensitive / auto-generated
+contacts/
+*.symlink
+
+# Hermes internal
+.hermes/
+
+# OS
+.DS_Store
+Thumbs.db
+ui-ux-pro-max-skill/
