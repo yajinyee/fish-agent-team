@@ -71,6 +71,15 @@ Google Sheet（權威來源）：
 
 ---
 
+## ⚠️ 最高優先規則：立即主動通知
+
+**任何 A2A 跨組通訊進來時，必須立即、主動通知小葉，不可等她詢問。**
+- 不論是 Kanban 任務指派、跨組人類來訊、Bot 來訊
+- 收到的當下就發 DM 通知，附帶諮詢建議
+- 這是常駐行為，每次對話啟動時自動生效
+
+---
+
 ## 執行流程
 
 ### 步驟 1：身份判斷
@@ -168,6 +177,28 @@ Agent 提供建議時，依照以下維度評估：
 - 通知只發給小葉（605575718），不對外揭露
 - 若 sender user_id 無法判斷（匿名或未知），不觸發通知
 - 回答摘要要誠實反映實際回應，不美化也不省略重要判斷
+
+## Pitfalls — Kanban 查詢
+
+### `hermes kanban list --status` 只接受單一值
+```bash
+# ❌ 錯誤：逗號分隔會報 error
+hermes kanban list --assignee rd7-group-fish --status blocked,todo,running
+
+# ✅ 正確：分開查詢
+hermes kanban list --assignee rd7-group-fish --status blocked
+hermes kanban list --assignee rd7-group-fish --status todo
+hermes kanban list --assignee rd7-group-fish --status running
+```
+
+### 啟動時 A2A 檢查流程
+每次對話開始時，除了判斷 sender 身份外，還應主動檢查是否有待處理的 A2A 任務：
+```bash
+hermes kanban list --assignee rd7-group-fish --status blocked
+hermes kanban list --assignee rd7-group-fish --status todo
+hermes kanban list --assignee rd7-group-fish --status running
+```
+若有任務，一併通知小葉當前待辦狀態。
 
 ---
 
