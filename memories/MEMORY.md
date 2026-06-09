@@ -4,7 +4,7 @@ Telegram reactions: ⏳ on processing start → ✅ success / 👎 fail / clear 
 §
 Client 研發知識庫已存於 workspace/knowledge/client/（core/ 10 個 + manual/ 11 個 .md 檔），內容涵蓋魚機與彈珠台的系統導覽、機台知識、Server 協定、新增魚種/房間流程、Prefab 規範、作弊工具等。
 §
-知識庫與服務：Wiki 在 workspace/knowledge/wiki/、週報 16 筆在 wiki/raw/weekly_reports/。咖啡會排班：workspace/knowledge/coffee-schedule.md（每6h從 Google Sheet 同步），提醒週日+週二 17:00 發 telegram:-1003903467272:170，名單有小葉→@yajinyee0306、有仲仁→@Ren0119。問排班時讀此檔回覆，有多少給多少。
+知識庫：Wiki workspace/knowledge/wiki/、週報 wiki/raw/weekly_reports/。咖啡會排班：workspace/knowledge/coffee-schedule.md（每6h同步），提醒週日+週二17:00發telegram:-1003903467272:170。問排班讀此檔。咖啡會topic互動規則：平時靜默，只有小葉@才動；被@要題材時從管理日誌、早會報告、日報整理多個主題選項有條理列出讓她挑。
 §
 跨組 Agent 監控（升級版，2026-06-09）：
 人類名單：5653475035志浩/大PM、972628949Hedi/AI組、1640096988皓瀚/AI三組、937896656Paddy/AI二組、419724141柏合/老虎機組、566256444書孟/平台二組、614037579MoMo/平台組、6230388397Kevin/營運組、618295124小刀/美術組+PM2、679194495珍妮/營運數據組、1712957194賢名/虎爺組。
