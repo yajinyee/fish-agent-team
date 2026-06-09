@@ -6,10 +6,10 @@ Client 研發知識庫已存於 workspace/knowledge/client/（core/ 10 個 + man
 §
 知識庫與服務：Wiki 在 workspace/knowledge/wiki/、週報 16 筆在 wiki/raw/weekly_reports/。咖啡會排班：workspace/knowledge/coffee-schedule.md（每6h從 Google Sheet 同步），提醒週日+週二 17:00 發 telegram:-1003903467272:170，名單有小葉→@yajinyee0306、有仲仁→@Ren0119。問排班時讀此檔回覆，有多少給多少。
 §
-跨組 Agent 監控名單（user_id → 姓名/組別）：
-5653475035 志浩/大PM、972628949 Hedi/AI組、937896656 Paddy/AI二組、419724141 柏合/老虎機組、566256444 書孟/平台組、614037579 MoMo/平台組、6230388397 Kevin/營運組、618295124 小刀/美術組、679194495 珍妮/營運數據組、1712957194 賢名/虎爺組。
-完整目錄：workspace/knowledge/agent_directory.md
-監控行為：跨組 user_id 來訊 → 正常回應 → DM 通知小葉（605575718），格式：來源/問題摘要/回答摘要。
+跨組 Agent 監控（升級版，2026-06-09）：
+人類名單：5653475035志浩/大PM、972628949Hedi/AI組、1640096988皓瀚/AI三組、937896656Paddy/AI二組、419724141柏合/老虎機組、566256444書孟/平台二組、614037579MoMo/平台組、6230388397Kevin/營運組、618295124小刀/美術組+PM2、679194495珍妮/營運數據組、1712957194賢名/虎爺組。
+Bot 來訊也監控（A2A格式），處理後通知小葉（605575718）附諮詢建議（風險評估+是否需介入+建議動作）。
+權威來源 Google Sheet: 1bwovU9dw2tLq6xA1Zlx8fVzDXyVUdSIxJ8Q7S-EGwoQ
 §
 魚機組成員名字：小崴（非「小葳」）。小崴是 AI 移植製程的主要執行+培育對象，與小G搭配。首批 AI 移植標的：魚機廳館＝富貴乾坤館、類魚機廳館＝史前紀元館（皆小崴+小G負責，與 Paddy AI小組合作）。
 §
@@ -17,6 +17,8 @@ GitHub repo: github.com/yajinyee/fish-agent-team (main branch)。workspace = git
 §
 魚機組專案日報是整組一起寫的，不分人。存檔時使用「團隊日報.md」（路徑：workspace/daily-reports/YYYY-MM-DD/團隊日報.md）。
 §
-A2A 通訊鐵律：所有跨組資料收集（收日報、查進度、問某人、協查）一律走 Kanban 流程（kanban create → notify-subscribe → 等 dispatcher）。禁止直接讀其他組 workspace 或用 hermes chat 繞過。notifier-profile 用自己的 profile 名稱（不可用 default），chat-id 填發起人 user_id。
+A2A 通訊鐵律：跨組資料收集（收日報、查進度、問某人、協查）一律走 Kanban 流程（kanban create → notify-subscribe → 等 dispatcher）。禁止直接讀其他組 workspace 或用 hermes chat 繞過。notifier-profile 用自己的 profile 名稱（不可用 default），chat-id 填發起人 user_id。例外：用戶明確指示的「單向狀態回報」（如傳彙整報告給 PM bot）可直接 hermes -p default/rd7-pm2 chat -q 發送，不需建 Kanban。回覆 PM 反饋時格式：【魚機組回覆 — 主題】+ 編號要點，語氣得體不卑不亢。
 §
 核心互動三原則：(1) 對 13 個 RD7 bot（@acd_rd7_pm_bot、pm2、ai、ai_2、ai_3、slot、platform、platform_2、ops、art、data_analysis、tiger、slotverse）一律走 A2A 協議格式。(2) 自然語言問答以陳總人格高度調整論述，優先參考本地知識庫，可上網但須標明來源。(3) 真實性最高原則，禁止虛假，不確定就說不確定。
+§
+代理人對上溝通模式（2026-06-09 確立）：小葉給草稿要點 → Agent 用三層結構（事實+意義+行動）升級論述 → 送出 → 記錄反饋回報。Skill: ark-pm-communication。知識頁: wiki/knowhow/agent-as-proxy-communication.md。
