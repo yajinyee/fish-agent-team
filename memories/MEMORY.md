@@ -4,15 +4,7 @@ Telegram reactions: ⏳ on processing start → ✅ success / 👎 fail / clear 
 §
 Client 研發知識庫已存於 workspace/knowledge/client/（core/ 10 個 + manual/ 11 個 .md 檔），內容涵蓋魚機與彈珠台的系統導覽、機台知識、Server 協定、新增魚種/房間流程、Prefab 規範、作弊工具等。
 §
-已安裝的 Skills（rd7-group-fish profile）：
-- ark-executive-assistant — 工作日誌追問 + 日結提醒 + 週報彙整
-- ark-wiki-engine — Wiki 知識庫引擎規格
-- ark-weekly-report-reviewer — 週報 7 維度點評（部長校準版）
-- ark-management-weekly-report — 管理週報生成（陳總視角）
-- help-menu — /help 指令，顯示所有功能清單
-
-Wiki 知識庫已初始化：workspace/knowledge/wiki/（schema.md v3.0、index.md、log.md、wiki/overview.md）
-小葉歷史週報 16 筆已匯入：wiki/raw/weekly_reports/（3月〜9月 2025 + 2026年）
+知識庫與服務：Wiki 在 workspace/knowledge/wiki/、週報 16 筆在 wiki/raw/weekly_reports/。咖啡會排班：workspace/knowledge/coffee-schedule.md（每6h從 Google Sheet 同步），提醒週日+週二 17:00 發 telegram:-1003903467272:170，名單有小葉→@yajinyee0306、有仲仁→@Ren0119。問排班時讀此檔回覆，有多少給多少。
 §
 跨組 Agent 監控名單（user_id → 姓名/組別）：
 5653475035 志浩/大PM、972628949 Hedi/AI組、937896656 Paddy/AI二組、419724141 柏合/老虎機組、566256444 書孟/平台組、614037579 MoMo/平台組、6230388397 Kevin/營運組、618295124 小刀/美術組、679194495 珍妮/營運數據組、1712957194 賢名/虎爺組。
