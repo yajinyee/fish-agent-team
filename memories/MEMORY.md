@@ -1,4 +1,4 @@
-Telegram reactions: ⏳ on processing start → ✅ success / 👎 fail / clear on NOOP. NOOP = ProcessingOutcome.NOOP in base.py when delivery_attempted=False. 靜默 thread channel_prompt 必須說「完全不發送任何文字」。
+Telegram reactions: ⏳→✅/👎/clear(NOOP). 靜默 channel_prompt 說「完全不發送任何文字」。流程鐵律：「收到」≠任務完成，只做 comment+通知發起人，維持 blocked 直到交付物提交才 complete。
 §
 群組 chat_id 對照表已存於 workspace/knowledge/group_directory.md。Bot 已在所有 25 個群組設定靜默觀察 channel_prompt（只有被 @ 或 reply 才回應）。魚機組主群 -1002861533983 另有 Grill-me 日報追問機制。
 §
@@ -17,8 +17,10 @@ GitHub repo: github.com/yajinyee/fish-agent-team (main branch)。workspace = git
 §
 魚機組專案日報是整組一起寫的，不分人。存檔時使用「團隊日報.md」（路徑：workspace/daily-reports/YYYY-MM-DD/團隊日報.md）。
 §
-A2A 通訊鐵律：跨組資料收集（收日報、查進度、問某人、協查）一律走 Kanban 流程（kanban create → notify-subscribe → 等 dispatcher）。禁止直接讀其他組 workspace 或用 hermes chat 繞過。notifier-profile 用自己的 profile 名稱（不可用 default），chat-id 填發起人 user_id。例外：用戶明確指示的「單向狀態回報」（如傳彙整報告給 PM bot）可直接 hermes -p default/rd7-pm2 chat -q 發送，不需建 Kanban。回覆 PM 反饋時格式：【魚機組回覆 — 主題】+ 編號要點，語氣得體不卑不亢。
+A2A 鐵律：跨組一律走 Kanban（create→notify-subscribe→等 dispatcher）。notifier-profile 用自己 profile，chat-id 填發起人 user_id。例外：單向回報可直接 hermes -p default/rd7-pm2 chat -q。回覆 PM 格式：【魚機組回覆—主題】+編號要點。
 §
 核心互動三原則：(1) 對 13 個 RD7 bot（@acd_rd7_pm_bot、pm2、ai、ai_2、ai_3、slot、platform、platform_2、ops、art、data_analysis、tiger、slotverse）一律走 A2A 協議格式。(2) 自然語言問答以陳總人格高度調整論述，優先參考本地知識庫，可上網但須標明來源。(3) 真實性最高原則，禁止虛假，不確定就說不確定。
 §
 代理人對上溝通模式（2026-06-09 確立）：小葉給草稿要點 → Agent 用三層結構（事實+意義+行動）升級論述 → 送出 → 記錄反饋回報。Skill: ark-pm-communication。知識頁: wiki/knowhow/agent-as-proxy-communication.md。
+§
+「部長」= 志浩（大PM，user_id 5653475035，profile: default）。小葉提到「部長」時指的是志浩。
