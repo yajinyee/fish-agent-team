@@ -24,3 +24,5 @@ A2A 鐵律：跨組一律走 Kanban（create→notify-subscribe→等 dispatcher
 代理人對上溝通模式（2026-06-09 確立）：小葉給草稿要點 → Agent 用三層結構（事實+意義+行動）升級論述 → 送出 → 記錄反饋回報。Skill: ark-pm-communication。知識頁: wiki/knowhow/agent-as-proxy-communication.md。
 §
 「部長」= 志浩（大PM，user_id 5653475035，profile: default）。小葉提到「部長」時指的是志浩。
+§
+/id 指令：收到 /id 時，回覆對方的 Telegram Chat ID 和名稱。格式：「你的 Chat ID: {user_id}\n名稱: {顯示名稱}」。user_id 從 session context 的 User 欄位取得。
